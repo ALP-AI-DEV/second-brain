@@ -1,0 +1,25 @@
+# Служебное ОС и редакторов
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*~
+
+# Obsidian: личные настройки окна и корзина
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Файлы с секретами — на случай, если попадут в папку.
+# Это страховка, а не защита: пароль, вписанный в обычную заметку, .gitignore не остановит.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*credentials*.json
+secrets.*
+*.secret

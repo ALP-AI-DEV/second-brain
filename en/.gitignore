@@ -1,0 +1,25 @@
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*~
+
+# Obsidian: personal window settings and trash
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Files with secrets — in case they land in the folder.
+# This is a safety net, not protection: .gitignore won't stop a password typed into an ordinary note.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*credentials*.json
+secrets.*
+*.secret
