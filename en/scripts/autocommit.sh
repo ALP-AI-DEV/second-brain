@@ -7,11 +7,11 @@
 # commits there, including those left over from earlier failed attempts.
 #
 # The script never pulls from the server. If the same base is also edited via git
-# on another device — see the sync section in the README.
+# on another device — see docs/sync.md in the template repository.
 #
 # Manual run:       ./scripts/autocommit.sh
 # Other threshold:  QUIET_MIN=10 ./scripts/autocommit.sh
-# On a schedule:    see the README ("Autocommit to git")
+# On a schedule:    see docs/sync.md ("Autocommit to git")
 #
 # Requires bash and git 2.25+. Tested on Linux. Not tested on macOS or Windows;
 # on Windows the Obsidian Git plugin is simpler.

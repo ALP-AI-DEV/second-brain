@@ -108,4 +108,4 @@ They apply everywhere; nested files don't override them.
 ## Schema size
 
 Keep this file under 7 500 bytes (check after filling in "Who I am") and the AGENTS.md chain down to any
-folder under 14 000. Codex reads no more than 32 KB of instructions and silently cuts off the rest.
+folder under 14 000. By default Codex reads up to 32 KB of project instructions (the limit is configurable) and silently cuts off the rest.
