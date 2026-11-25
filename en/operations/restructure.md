@@ -8,6 +8,10 @@ never along the way during an ingest.** Via a messenger or in the background —
 goes into `wiki/notes/` (sensitive material — into `wiki/personal/`), and the section is proposed when
 the user comes back to the agent.
 
+**Look first, then ask.** Read the map and the affected files. If decisions that change the plan are
+still open (what to call it, what to merge, which "External" mark), ask one round of questions with
+recommendations (format — `operations/deep-setup.md`). A simple move needs no questions.
+
 **One plan — one consent.** Show the plan in your reply, not as a separate file. Before asking, put together the whole plan: what gets created, what moves where,
 which files and lines will need fixing. After a single "yes", carry it out in full; before the "yes", don't
 create or move anything.

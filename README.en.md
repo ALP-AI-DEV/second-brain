@@ -46,7 +46,8 @@ and tidies it. Keeping it by hand is slow.
 4. **Say "Let's get to know each other."** The agent will ask three questions: what you do and what
    you want to remember more easily, which material to process first, what must not be shared
    externally. Then it processes that material and, if the default folders aren't enough, proposes
-   sections for you.
+   sections for you. At the end it offers a choice: get to work right away, or "Let's set up the base
+   in depth" — 10–20 minutes of questions, after which sections and rules fit the way you work.
    Or skip onboarding: drop a file into `raw/inbox/` and say "process the inbox".
 
 To check that the agent has read the rules, ask "How is this base organized and what can you do?" —
@@ -68,6 +69,7 @@ couple of weeks — see the [examples](en/examples/): [manager with clients](en/
 | "What do we know about …?" | An answer from the base with links to pages |
 | "Process the inbox" | The agent assesses each file in `raw/inbox/` and files it |
 | "Check the base" | A report: contradictions, broken links, duplicates, forgotten questions |
+| "Let's set up the base in depth" (or "grill me") | Questions in rounds, with recommendations for decisions about the base; the result is a plan for sections and rules that the agent carries out once you agree |
 
 There's also "reflect" (how to improve the schema itself) and "create a section for …" — the full
 list of operations is in `AGENTS.md`.
@@ -103,8 +105,9 @@ brain/
   (`timeline.md`) and a log of decisions and promises (`decisions.md`). The agent checks the log
   and tells you when something new conflicts with what's already decided.
 - **Cross-check by a second model.** After substantial operations another model reviews the result,
-  ideally from another vendor: a model is bad at seeing its own mistakes. If there's no second model,
-  the agent prepares a task you can paste into another model's chat.
+  ideally from another vendor: a model is bad at seeing its own mistakes. Until a second model is set
+  up, the agent shows the result marked "not cross-checked" and offers to connect one; you can also
+  do it by hand — the agent prepares a task you can paste into another model's chat.
 
 ---
 

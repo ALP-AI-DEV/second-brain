@@ -15,7 +15,8 @@ This is how the base grows together with the user.
    "Schema size" section)? What should move to `operations/` or templates, and what should be
    deleted as outdated?
    Which rules did the user repeat in chats that aren't in the schema?
-6. 1–2 concrete improvements to the schema, with the ready text of the edit.
+6. 1–2 concrete improvements to the schema — as decisions: what changes, why, a recommendation and
+   the ready text of the edit. The user answers by number.
 
 **Don't change anything yourself — analysis only.** Structure changes after agreement go through
 `operations/restructure.md`; schema edits — after a "yes". After the analysis — a cross-check by a second model;

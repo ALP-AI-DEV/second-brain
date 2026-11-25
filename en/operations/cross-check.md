@@ -11,6 +11,10 @@ on the first pass.
 - lint, reflect;
 - a query answer saved as a page linking to 2+ sources.
 
+**The second model isn't set up yet** (onboarding, first ingests) — don't hold back the result: show it
+marked "not cross-checked by a second model" and offer to set it up. Cross-check once it's set up, if
+the user wants.
+
 **Can be skipped:** a recipe, one line in a catalog, an edit to one paragraph after the user
 has checked it.
 

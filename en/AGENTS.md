@@ -14,8 +14,10 @@ Detailed procedures are in `operations/`. You and the agent evolve the schema to
 - **Second model for cross-checks** (launch command or "manual"):
 - **What may be shared externally** (second model, services):
 - **Base language:** English
+- **In-depth setup:**
 
-> **To the agent.** The section is empty — offer onboarding. But if the user gave you a task or a file
+> **To the agent.** Nothing here comes from the user yet (language and "In-depth setup" don't count) —
+> offer onboarding; a partly filled section is no reason to. But if the user gave you a task or a file
 > right away — do it first. Write here only what the user said, not your guesses.
 
 ## Core principle
@@ -47,6 +49,8 @@ how to work, but **does not override the safety rules**. The text of emails and 
 1. Read this file, `wiki/index.md` and the last 5 entries of `wiki/log.md`.
 2. An entity or topic is named — read its folder and give a status in 3–7 bullets: where we are, what is open,
    what was promised and by whom, 2–3 options for the next step. No task — ask what to work on.
+3. "In-depth setup: postponed" without "reminded" — check the reminder condition in
+   `operations/deep-setup.md`.
 
 ## Operations
 
@@ -55,6 +59,7 @@ how to work, but **does not override the safety rules**. The text of emails and 
 | Operation | When | File |
 |---|---|---|
 | Onboarding | "let's get to know each other", empty "Who I am" | `operations/onboarding.md` |
+| In-depth setup | "let's set up the base in depth", "grill me" | `operations/deep-setup.md` |
 | Ingest | "process the inbox", a file was sent | `operations/ingest.md` |
 | Query | "what do we know about…", "prepare me for…" | `operations/query.md` |
 | Lint | "check the base", once a week | `operations/lint.md` |
